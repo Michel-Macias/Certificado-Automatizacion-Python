@@ -2,11 +2,11 @@
 import os
 
 
-os.chdir('c:/Users')
+os.chdir('/home/michelle/')
 os.getcwd()
 
 def main():
-    for dirpath, dirnames, filenames in os.walk('C:/Users'):
+    for dirpath, dirnames, filenames in os.walk('/home/michelle/'):
         print('Ruta al directorio: ',dirpath)
         print('----------------------------------')
         print('Nombres de directorio: ',dirnames)
